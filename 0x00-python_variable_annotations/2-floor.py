@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
+'''Task 2's module.
+'''
 
-"""This module provides a function for adding two floats."""
 
-def add(a: float, b: float) -> float:
-    """
-    Add two floats and return their sum.
+import math
 
-    Args:
-        a: The first float.
-        b: The second float.
 
-    Returns:
-        The sum of the two floats as a float.
-    """
-    return a + b
+def floor(a: float) -> int:
+    '''Computes the floor of a floating-point number.
+    '''
+    return math.floor(a)
